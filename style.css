@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
 body{
-    background-color: #222f3e;
-    transition: 0.5s;
+    background-image: url("./img/imgonline-com-ua-blur-bIzLjyHgwR4k.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .container-div{
     width: 1000px;
@@ -10,7 +13,7 @@ body{
 .textarea{
     height: 150px;
     width: 1000px;
-    background-color: #48525e;
+    background-color: #0f0f0f;
     resize: none;
     font-size: 25px;
     padding: 10px;
@@ -18,14 +21,14 @@ body{
 }
 .textarea:focus {
     outline: none !important;
-    border:1px solid #2e86de;
+    border:1px solid #16a085;
     border-radius: 10px;
     box-shadow: 0 0 10px #719ECE;
   }
 
 .button{
     font-size: 25px;
-    background-color: #2e86de;
+    background-color: #16a085;
     width: 150px;
     height: 60px;
 }
@@ -44,9 +47,30 @@ body{
     font-size: 500px;
     padding: 50px;
     margin-bottom: 200px;
+    margin-top: 100px;
+}
+.height{
+    height: 100vh;
 }
 .logo-reduced{
     font-size: 100px;
-    margin-bottom: 20px;
+    margin-bottom: 1px;
+    padding: 10px;
+    padding-top: 50px;
     transition: 0.5s;
+}
+
+.desc{
+    color: #16a085;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+.button-clear{
+    color: #16a085;
+    border: solid 1px #16a085;
+    font-size: 25px;
+    height: 60px;
+    width: 150px;
+
 }

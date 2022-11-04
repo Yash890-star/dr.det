@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+*{
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    
+}
+
+body{
+    background-image: url("./img/devinfo.png");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about{
+    font-size: 100px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 80px;
+}
+.height{
+    height: 50vh;
+}
+.card{
+    color: white;
+    background-color: rgb(34, 34, 33);
+    border-radius: 10px;
+    max-width: 250px;
+    min-width: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.socials{
+    margin-bottom: 50px;
+}
+.image{
+    width: 100px;
+    border-radius: 50%;
+}
+.svg{
+    fill: white;
+}
+.desc{
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+}
