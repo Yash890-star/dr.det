@@ -19,7 +19,5 @@ function clearHandler(){
 b.addEventListener('click', buttonClickHandler)
 c.addEventListener('click', clearHandler)
 window.addEventListener('scroll', ()=>{
-    const current = window.scrollY;
-    console.log(current)
-    f.style.fontSize = `clamp(50px,${400-(current)}px,500px)`
+    f.classList.add('logo-reduced')
 })

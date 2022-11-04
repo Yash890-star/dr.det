@@ -43,5 +43,10 @@ body{
     font-weight: 600;
     font-size: 500px;
     padding: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
+}
+.logo-reduced{
+    font-size: 100px;
+    margin-bottom: 20px;
+    transition: 0.5s;
 }
